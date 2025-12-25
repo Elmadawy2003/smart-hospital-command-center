@@ -1,0 +1,821 @@
+{
+  service: 'hospital-erp-backend',
+  length: 104,
+  name: 'error',
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '334',
+  routine: 'auth_failed',
+  level: 'error',
+  message: 'Failed to connect to database: password authentication failed for user "postgres"',
+  stack: 'error: password authentication failed for user "postgres"\n' +
+    '    at C:\\Users\\elmad\\Desktop\\Hospital_ERP\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async connectDatabase (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\config\\database.ts:22:20)\n' +
+    '    at async startServer (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\index.ts:158:5)',
+  timestamp: '2025-10-11 15:43:55'
+}
+{
+  service: 'hospital-erp-backend',
+  length: 104,
+  name: 'error',
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '334',
+  routine: 'auth_failed',
+  level: 'warn',
+  message: 'Failed to connect to database - running in offline mode: password authentication failed for user "postgres"',
+  stack: 'error: password authentication failed for user "postgres"\n' +
+    '    at C:\\Users\\elmad\\Desktop\\Hospital_ERP\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async connectDatabase (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\config\\database.ts:22:20)\n' +
+    '    at async startServer (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\index.ts:159:7)',
+  timestamp: '2025-10-11 15:47:37'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  service: 'hospital-erp-backend',
+  timestamp: '2025-10-11 15:47:37'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:37'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:37'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:37'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:38'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:38'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:38'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:38'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:38'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:39'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:39'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:40'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:40'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:41'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:41'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:42'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:42'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:43'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:43'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:44'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:44'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:45'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:45'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:46'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:46'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:47'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:47'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:48'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:48'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:49'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:49'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:50'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:50'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:51'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:52'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:52'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:53'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:53'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:54'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:54'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:55'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:55'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:56'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:56'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:57'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:57'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:58'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:58'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:59'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:47:59'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:48:00'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:48:00'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:48:01'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:48:01'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:48:02'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:48:02'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:48:03'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:48:03'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:48:04'
+}
+{
+  service: 'hospital-erp-backend',
+  length: 104,
+  name: 'error',
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '334',
+  routine: 'auth_failed',
+  level: 'warn',
+  message: 'Failed to connect to database - running in offline mode: password authentication failed for user "postgres"',
+  stack: 'error: password authentication failed for user "postgres"\n' +
+    '    at C:\\Users\\elmad\\Desktop\\Hospital_ERP\\node_modules\\pg-pool\\index.js:45:11\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async connectDatabase (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\config\\database.ts:22:20)\n' +
+    '    at async startServer (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\index.ts:159:7)',
+  timestamp: '2025-10-11 15:48:14'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  service: 'hospital-erp-backend',
+  timestamp: '2025-10-11 15:48:14'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'error',
+  message: 'Redis Client Error:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:48:14'
+}
+{
+  service: 'hospital-erp-backend',
+  code: 'ECONNREFUSED',
+  level: 'warn',
+  message: 'Failed to connect to Redis - running without cache:',
+  stack: 'AggregateError\n' +
+    '    at internalConnectMultiple (node:net:1122:18)\n' +
+    '    at afterConnectMultiple (node:net:1689:7)',
+  timestamp: '2025-10-11 15:48:14'
+}
+{
+  message: 'Redis connected successfully',
+  level: 'info',
+  service: 'hospital-erp-backend',
+  timestamp: '2025-10-11 15:48:14'
+}
+{
+  message: '🏥 Hospital ERP Backend Server running on port 4000',
+  level: 'info',
+  service: 'hospital-erp-backend',
+  timestamp: '2025-10-11 15:48:14'
+}
+{
+  message: '📊 Environment: development',
+  level: 'info',
+  service: 'hospital-erp-backend',
+  timestamp: '2025-10-11 15:48:14'
+}
+{
+  message: '🔗 Health check: http://localhost:4000/health',
+  level: 'info',
+  service: 'hospital-erp-backend',
+  timestamp: '2025-10-11 15:48:14'
+}
+{
+  service: 'hospital-erp-backend',
+  requestId: undefined,
+  method: 'POST',
+  url: '/login',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.6584',
+  contentType: 'application/json',
+  contentLength: '49',
+  userId: undefined,
+  timestamp: '2025-10-11 15:55:09',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'hospital-erp-backend',
+  level: 'error',
+  message: 'Login error: Database not initialized. Call connectDatabase() first.',
+  stack: 'Error: Database not initialized. Call connectDatabase() first.\n' +
+    '    at getDatabase (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\config\\database.ts:36:11)\n' +
+    '    at login (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\controllers\\authController.ts:162:27)\n' +
+    '    at C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\middleware\\errorHandler.ts:76:21\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\middleware\\logging.ts:191:5\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at apiUsageLogger (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\middleware\\logging.ts:231:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  timestamp: '2025-10-11 15:55:09'
+}
+{
+  service: 'hospital-erp-backend',
+  message: 'Error occurred: Database not initialized. Call connectDatabase() first.',
+  stack: 'Error: Database not initialized. Call connectDatabase() first.\n' +
+    '    at getDatabase (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\config\\database.ts:36:11)\n' +
+    '    at login (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\controllers\\authController.ts:162:27)\n' +
+    '    at C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\middleware\\errorHandler.ts:76:21\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\middleware\\logging.ts:191:5\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at apiUsageLogger (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\backend\\src\\middleware\\logging.ts:231:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\elmad\\Desktop\\Hospital_ERP\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  url: '/api/auth/login',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.6584',
+  userId: undefined,
+  level: 'error',
+  timestamp: '2025-10-11 15:55:09'
+}
+{
+  service: 'hospital-erp-backend',
+  requestId: undefined,
+  method: 'POST',
+  url: '/api/auth/login',
+  statusCode: 500,
+  duration: '54.01ms',
+  contentLength: undefined,
+  userId: undefined,
+  timestamp: '2025-10-11 15:55:09',
+  level: 'info',
+  message: 'Outgoing response'
+}
+{
+  service: 'hospital-erp-backend',
+  requestId: '0c4ec959-2f71-462c-9c49-41b3be24733d',
+  method: 'POST',
+  url: '/api/auth/login',
+  statusCode: 500,
+  duration: '48.94ms',
+  memoryUsage: {
+    rss: 29925376,
+    heapTotal: 56561664,
+    heapUsed: 54666344,
+    external: 8900596,
+    arrayBuffers: 4732838
+  },
+  userId: undefined,
+  level: 'info',
+  message: 'Request performance',
+  timestamp: '2025-10-11 15:55:09'
+}
+{
+  service: 'hospital-erp-backend',
+  requestId: '0c4ec959-2f71-462c-9c49-41b3be24733d',
+  endpoint: 'POST /login',
+  statusCode: 500,
+  userId: undefined,
+  userRole: undefined,
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.6584',
+  timestamp: '2025-10-11 15:55:09',
+  level: 'info',
+  message: 'API usage'
+}
